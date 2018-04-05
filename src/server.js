@@ -1,10 +1,17 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
 const emojis = require('./fixtures/emojis');
 const emojiSerializer = require('./serializers/emoji');
 
-app.get('/api/emojis', (req, res) => {
+const corsOptions = {
+  origin: 'http://localhost:4200'
+}
+
+app.use(cors())
+
+app.get('/api/emojis', cors(corsOptions), (req, res) => {
   const data = emojiSerializer.serialize(emojis);
   res.send(data);
 })

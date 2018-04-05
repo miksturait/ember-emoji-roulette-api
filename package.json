@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/miksturait/ember-emoji-roulette#readme",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "jsonapi-serializer": "^3.5.6"
   },
