@@ -1,0 +1,28 @@
+{
+  "name": "emoji-roulette-api",
+  "version": "0.0.1",
+  "description": "API for the emoji game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miksturait/ember-emoji-roulette.git"
+  },
+  "keywords": [
+    "game",
+    "emoji",
+    "super",
+    "fancy"
+  ],
+  "author": "MiksturaIT & CoderDojo Bielsko Biala d",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miksturait/ember-emoji-roulette/issues"
+  },
+  "homepage": "https://github.com/miksturait/ember-emoji-roulette#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
