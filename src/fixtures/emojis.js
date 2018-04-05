@@ -1,4 +1,4 @@
-{
+const emojis = {
   "emojis": [
     { "id": 4, "codepoint": 128512, "emojiIcon": "😀" },
     { "id": 5, "codepoint": 128513, "emojiIcon": "😁" },
@@ -83,3 +83,5 @@
     { "id": 84, "codepoint": 129510, "emojiIcon": "🧦" }
   ]
 }
+
+module.exports = emojis;
