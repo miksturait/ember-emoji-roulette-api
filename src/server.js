@@ -2,9 +2,11 @@ const express = require('express');
 const app = express();
 
 const emojis = require('./fixtures/emojis');
+const emojiSerializer = require('./serializers/emoji');
 
 app.get('/api/emojis', (req, res) => {
-  res.send(emojis)
+  const data = emojiSerializer.serialize(emojis);
+  res.send(data);
 })
 
 
